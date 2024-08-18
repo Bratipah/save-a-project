@@ -1,0 +1,50 @@
+{
+  "name": "vite-frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@mantine/carousel": "^5.9.2",
+    "@mantine/core": "^5.9.2",
+    "@mantine/dates": "^5.9.2",
+    "@mantine/form": "^5.9.2",
+    "@mantine/hooks": "^5.9.2",
+    "@mantine/modals": "^5.9.2",
+    "@mantine/notifications": "^5.9.2",
+    "@mantine/nprogress": "^5.9.2",
+    "@mantine/spotlight": "^5.9.2",
+    "@tabler/icons": "^1.115.0",
+    "bignumber.js": "^9.1.2",
+    "buffer": "^6.0.3",
+    "cookies-next": "^4.0.0",
+    "dayjs": "^1.11.6",
+    "embla-carousel-react": "^7.0.5",
+    "events": "^3.3.0",
+    "firebase": "^9.15.0",
+    "moment-timezone": "^0.5.39",
+    "nanoid": "^4.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0",
+    "react-router-dom": "^6.4.4",
+    "uuid": "^9.0.0",
+    "web3": "^4.1.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.0.3",
+    "eslint": "^8.45.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3",
+    "vite": "^4.4.5"
+  }
+}
