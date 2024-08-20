@@ -1,5 +1,4 @@
 
-
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.12;
 
@@ -61,7 +60,7 @@ struct Partner {
     address wallet;
 }
 
-contract Contract {
+contract Donations {
     address[] private guardians;
     bool public running;
     string[] private causes;
